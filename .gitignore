@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+echo "node_modules" > .gitignore
+echo "logs" >> .gitignore
+echo "*.log" >> .gitignore
+echo "npm-debug.log*" >> .gitignore
+echo "jspm_packages/" >> .gitignore
+echo ".npm" >> .gitignore
+echo ".eslintcache" >> .gitignore
+echo ".node_repl_history" >> .gitignore
+echo "*.tgz" >> .gitignore
+echo ".yarn-integrity" >> .gitignore
+echo ".env" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo ".idea" >> .gitignore
+echo ".vscode" >> .gitignore
+echo "build/" >> .gitignore

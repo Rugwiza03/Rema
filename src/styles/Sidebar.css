@@ -1,0 +1,19 @@
+.sidebar {
+    width: 240px;
+    flex-shrink: 0;
+  }
+  
+  .sidebar .MuiDrawer-paper {
+    width: 240px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  .sidebar .MuiListItem-root {
+    padding: 10px 20px;
+  }
+  
+  .sidebar .MuiListItemText-primary {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,47 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .auth-card {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .auth-logo {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .auth-title {
+    font-weight: bold;
+  }
+  
+  .auth-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .auth-forgot-password {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+  
+  .auth-button {
+    margin-top: 20px;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    margin-top: 10px;
+  }
+  

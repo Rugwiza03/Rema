@@ -1,0 +1,22 @@
+.project {
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .project-title {
+    margin-bottom: 20px;
+  }
+  
+  .project-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-form .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  .project-form .MuiButton-root {
+    align-self: flex-end;
+  }
+  

@@ -1,0 +1,10 @@
+.navbar {
+    background-color: #2a3eb1;
+    color: white;
+  }
+  
+  .navbar-title {
+    flex-grow: 1;
+    text-align: center;
+  }
+  

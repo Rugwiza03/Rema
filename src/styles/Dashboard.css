@@ -1,0 +1,19 @@
+.dashboard {
+    padding: 20px;
+    background-color: #fafafa;
+  }
+  
+  .dashboard-title {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-card {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
