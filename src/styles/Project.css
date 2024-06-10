@@ -1,35 +1,47 @@
 .project {
-    margin-left: 220px;
-    padding: 2rem;
-    background-color: #f5f5f5;
-    min-height: 100vh;
-}
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .project-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .project-header h1 {
+    margin: 0;
+  }
+  
+  .project-content {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
 
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    background-color: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-input,
-select,
-button {
-    padding: 0.5rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-
-button {
-    background-color: #6200ea;
+  .create-btn {
+    background-color: #4CAF50;
     color: #fff;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-}
 
-button:hover {
-    background-color: #3700b3;
-}
+  }

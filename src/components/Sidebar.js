@@ -2,10 +2,11 @@ import React from 'react';
 import { Drawer, List, ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
 import '../styles/Sidebar.css';
+//import ListItem from '@mui/material';
 
 const Sidebar = () => {
   return (
-    <Drawer variant="permanent" className="sidebar">
+    <div variant="permanent" className="sidebar">
       <List>
         <ListItem button component={Link} to="/dashboard">
           <ListItemText primary="Dashboard" />
@@ -29,7 +30,7 @@ const Sidebar = () => {
           <ListItemText primary="Settings" />
         </ListItem>
       </List>
-    </Drawer>
+    </div>
   );
 };
 

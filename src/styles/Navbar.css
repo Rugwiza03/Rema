@@ -1,10 +1,21 @@
 .navbar {
-    background-color: #2a3eb1;
-    color: white;
-  }
-  
-  .navbar-title {
-    flex-grow: 1;
-    text-align: center;
-  }
-  
+  background-color: #f44336; /* Example color, customize as needed */
+  color: white;
+}
+
+.navbar-title {
+  margin-right: auto;
+}
+
+.navbar-subtitle {
+  margin-left: 16px;
+}
+
+.navbar-button {
+  color: white;
+}
+
+.drawer-container {
+  padding: 16px;
+  width: 250px;
+}
