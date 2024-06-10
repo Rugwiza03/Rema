@@ -1,56 +1,34 @@
 import React from 'react';
-import { TextField, Button, Checkbox, FormControlLabel, Typography, Link, Card, CardContent } from '@mui/material';
-import '../styles/Auth.css';
+import { Link } from 'react-router-dom';
+import logo from '../assets/images/Rema.jpg'; // Corrected file path
+import '../styles/Auth.css';  // Corrected file path
 
 const Login = () => {
-  return (
-    <div className="auth-container">
-      <Card className="auth-card">
-        <CardContent>
-          <div className="auth-header">
-            <img src="/logo.png" alt="REMA Logo" className="auth-logo" />
-            <Typography variant="h5" component="h1" className="auth-title">
-              Login
-            </Typography>
-          </div>
-          <form className="auth-form">
-            <TextField
-              fullWidth
-              label="Email"
-              variant="outlined"
-              margin="normal"
-              required
-            />
-            <TextField
-              fullWidth
-              label="Password"
-              type="password"
-              variant="outlined"
-              margin="normal"
-              required
-            />
-            <FormControlLabel
-              control={<Checkbox name="rememberMe" color="primary" />}
-              label="Remember me"
-            />
-            <Link href="#" className="auth-forgot-password">
-              Forgot password?
-            </Link>
-            <Button
-              variant="contained"
-              color="primary"
-              className="auth-button"
-            >
-              Sign in
-            </Button>
-            <Typography variant="body2" className="auth-footer">
-              Not registered yet? <Link href="/signup">Create an Account</Link>
-            </Typography>
-          </form>
-        </CardContent>
-      </Card>
-    </div>
-  );
+    return (
+        <div className="auth-container">
+            <div className="auth-form">
+            <img src={logo} alt="REMA Afforestation" className="logo" />              <h1>Login</h1>
+                <form>
+                    <label htmlFor="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required />
+                    
+                    <label htmlFor="password">Password*</label>
+                    <input type="password" id="password" name="password" placeholder="min. 8 character" required />
+                    
+                    <div className="remember-me">
+                        <input type="checkbox" id="remember" name="remember" />
+                        <label htmlFor="remember">Remember me</label>
+                        <Link to="/forgot-password" className="forgot-password">Forgot password?</Link>
+                    </div>
+                    
+                    <button type="submit" className="auth-button">Sign up</button>
+                </form>
+                <p>
+                    Not registered yet? <Link to="/signup">Create an Account</Link>
+                </p>
+            </div>
+        </div>
+    );
 };
 
 export default Login;
