@@ -1,3 +1,5 @@
+/* Auth.css */
+
 .auth-container {
   display: flex;
   justify-content: center;
@@ -18,8 +20,7 @@
 }
 
 .logo {
-  width: 150px;
-  margin-bottom: 1rem;
+  width: 300px;
 }
 
 h1 {
@@ -36,50 +37,8 @@ label {
   margin-bottom: 0.5rem;
 }
 
-input {
+/* input {
   padding: 0.5rem;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-.auth-button {
-  padding: 0.75rem;
-  background-color: #6c63ff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 1rem;
-}
-
-.auth-button:hover {
-  background-color: #5753d7;
-}
-
-.remember-me {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.forgot-password {
-  font-size: 0.875rem;
-  color: #6c63ff;
-}
-
-.forgot-password:hover {
-  text-decoration: underline;
-}
-
-p {
-  margin-top: 1rem;
-}
-
-p a {
-  color: #6c63ff;
-}
-
-p a:hover {
-  text-decoration: underline;
-}
+  border
+} */
