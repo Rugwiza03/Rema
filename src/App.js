@@ -25,6 +25,8 @@ function App() {
                         <Route path="/" element={<Dashboard />} />
                         <Route path="/project" element={<Project />} />
                         <Route path="/site-management" element={<SiteManagement />} /> {/* Add SiteManagement route */}
+                        <Route path="/task-management" element={ <TaskManagement />}/>
+                        <Route path="/reporting" element={ <Reporting />}/>
                     </Routes>
                 </div>
             </Router>

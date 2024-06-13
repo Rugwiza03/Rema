@@ -1,10 +1,17 @@
 /* src/styles/SiteManagement.css */
 .site-management {
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
 .statistics-cards {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
