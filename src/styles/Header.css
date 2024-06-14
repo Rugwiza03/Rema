@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #e4b4b4;
     position: absolute;
   }
   
   .logo {
     margin-top: 40px;
-    background-color: #fff;
+    background-color: #796f6f;
     height: 8px;
     width: 200px;
     display: flex;

@@ -2,7 +2,6 @@ import React from 'react';
 import { Drawer, List, ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
 import '../styles/Sidebar.css';
-//import ListItem from '@mui/material';
 
 const Sidebar = () => {
   return (
